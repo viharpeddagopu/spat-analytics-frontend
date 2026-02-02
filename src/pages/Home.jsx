@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/spat-logo.png";
+import logo from "../assets/SPAT-logo.png";
 
 export default function Home() {
   const [mode, setMode] = useState("login"); // login | signup
