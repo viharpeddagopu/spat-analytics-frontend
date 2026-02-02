@@ -1,6 +1,6 @@
 // src/components/Header.jsx
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../assets/spat-logo.png";
+import logo from "../assets/SPAT-logo.png";
 
 export default function Header() {
   const navigate = useNavigate();
