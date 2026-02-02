@@ -3,6 +3,10 @@
 
 A modern, responsive React-based analytics dashboard for visualizing ticket booking data across multiple bus operators.
 
+This project was built for a real travel organization, Amaravathi Travels, my father’s business—to analyze and manage bus ticket bookings through a modern analytics dashboard.
+
+Link to the org: ```https://www.sriamaravathitravels.com/index.html```
+
 The frontend consumes REST analytics APIs exposed by the SPAT Analytics backend and presents actionable insights through clean UI components, tables, and charts.
 
 
@@ -61,10 +65,10 @@ It is designed as a pure presentation layer, keeping all business logic and data
 
 The frontend communicates with the backend using REST APIs such as:
 ```http
-GET /api/dashboard/stats
-GET /api/bookings
-GET /api/companies
-POST /api/upload/bookings
+GET /dashboard/stats
+GET /bookings
+GET /companies
+POST /upload/bookings
 ```
 Axios is configured with a centralized API service for clean and maintainable requests.
 ## Authentication (Planned Integration)
@@ -77,6 +81,17 @@ Frontend is structured to easily add:
 - Auth-protected routes
 
 Currently disabled to keep the demo frictionless
+
+## Deployment
+
+Frontend deployed on Vercel
+
+🔗 Live Frontend: ``` https://spat-analytics-frontend-7onr.vercel.app/```
+
+Backend deployed on Render
+
+🔗 Backend API Base URL: ```https://spat-analytics-backend-1.onrender.com/```
+
 ## Run Locally
 
 Clone the project
